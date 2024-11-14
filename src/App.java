@@ -1,5 +1,4 @@
 
-
 /* Complete methods: copyFrontAndBack and __________. 
  * DO NOT MODIFY THE MAIN METHOD!
  *
@@ -49,15 +48,17 @@ public class App {
     }
 
     public static int[] copyFrontAndBack(int[] nums){
-
-        return null; //this is a placeholder
-
-    }
+            int[] numbers = input.split(",");
+            return [1], array.length;
+        }
 
     public static int maxWordLength(String sentence){
+        String[] sentence = input.split(" ");
+        for (String s : sentence) {
+        s++;
+        }
 
-
-        return -1; //this is a placeholder
+        return s; //this is a placeholder
     }
 
 
